@@ -1,5 +1,5 @@
 //This is the title for your window tab, and your Radar
-document.title = "My Personal Technology Radar";
+document.title = "My Personal Technology Radar (October 2015)";
 
 
 //This is the concentic circles that want on your radar
@@ -119,7 +119,7 @@ var radar_data = [
     },
     { "quadrant": "Platforms",
         "left" :45,
-         "top" : (h/2 + 18),
+        "top" : (h/2 + 18),
         "color" : "#DC6F1D",
         "items" : [
             // Adopt
@@ -137,8 +137,8 @@ var radar_data = [
     },
     { "quadrant": "Languages & Frameworks",
         "color" : "#B70062",
-        "left"  : (w-200+30),
-        "top" :   (h/2 + 18),
+        "left"  : (w-200 + 30),
+        "top" :   (h/2 + 30),
         "items" : [ 
             // Adopt
             { 'name': 'Ember 1.x', 'pc': { 'r': 40, 't': 290 },  'movement': 'c' },
